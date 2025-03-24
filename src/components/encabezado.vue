@@ -1,4 +1,5 @@
 <template>
+<div class="container">
 <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background: url('https://www.shutterstock.com/image-photo/motorcycle-parked-alone-on-sunny-260nw-2153623869.jpg') no-repeat center center; background-size: cover; padding: 15px;">
             <div class="container-fluid" style="background: rgba(2, 2, 2, 0.5); padding: 10px; border-radius: 10px;">
                 <a class="navbar-brand text-white" href="#">Motos Deportivas</a>
@@ -34,5 +35,5 @@
             </div>
         </nav>
 
-
+</div>
 </template>

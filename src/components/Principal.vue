@@ -4,18 +4,20 @@
 //importacion del primer card
 //import Card from './Card.vue';
 import paginaweb from './paginaweb.vue';
+import encabezado from './encabezado.vue';
 </script>
 
 <template>
-  <div class="container bg-light p-4 rounded">
-    <h1 class="text-center">MASCOTAS</h1>
-    <CardPrincipal/>
-  <Card/>
-  
-  <Card/>
-    
-   <paginaweb/> 
-  </div>
+<div class="container bg-light p-4 rounded">
+  <h1 class="text-center">MASCOTAS</h1>
+  <CardPrincipal/>
+<Card/>
+
+<Card/> 
+</div>
+
+<paginaweb/>
+<encabezado/>
 </template>
 
 <style scoped>
