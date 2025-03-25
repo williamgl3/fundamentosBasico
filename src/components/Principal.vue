@@ -3,8 +3,12 @@
 //import CardPrincipal from './CardPrincipal.vue';
 //importacion del primer card
 //import Card from './Card.vue';
-import paginaweb from './paginaweb.vue';
+//import paginaweb from './paginaweb.vue';
 import encabezado from './encabezado.vue';
+import cardCarrusel from './cardCarrusel.vue';
+import cardS from './card´s.vue';
+import carrusel from './carrusel.vue';
+import formulario from './formulario.vue';
 </script>
 
 <template>
@@ -12,12 +16,17 @@ import encabezado from './encabezado.vue';
   <h1 class="text-center">MASCOTAS</h1>
   <CardPrincipal/>
 <Card/>
-
-<Card/> 
+<Card/>
+//paginaweb 
 </div>
-
+<div class="container">
+<formulario/>
+<cardCarrusel/>
+<cardS/>
+<carrusel/>
 <paginaweb/>
 <encabezado/>
+</div>
 </template>
 
 <style scoped>

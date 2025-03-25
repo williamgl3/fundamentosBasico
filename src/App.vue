@@ -1,14 +1,15 @@
 <script setup>
-import Principal from './components/Principal.vue';
-import paginaweb from './components/paginaweb.vue';
- 
+import vFor from './components/v-for.vue';
+//import recorrido from './components/recorrido.vue';
+import horario from './components/horario.vue';
 </script>
 
 <template>
-  <paginaweb/>
-  <Principal msg="Vite + Vue" />
+  
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
+   <recorrido/>
+   <horario/>
 </template>
 
 <style scoped>
-
 </style>
