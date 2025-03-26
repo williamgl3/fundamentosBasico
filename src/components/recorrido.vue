@@ -27,10 +27,10 @@
     data() {
       return {
         alumnos: [
-          { id: 12345, nombre: 'Juan', carrera: 'ISC', gusto: 'Fútbol' },
-          { id: 12346, nombre: 'Antonio', carrera: 'TICS', gusto: 'Videojuegos' },
-          { id: 12347, nombre: 'Nicolas', carrera: 'ISC', gusto: 'Música' },
-          { id: 12348, nombre: 'Perez', carrera: 'ISC', gusto: 'Cine' },
+          { id: 12345, nombre: 'William', carrera: 'ISC', gusto: 'Fútbol' },
+          { id: 12346, nombre: 'Eddi', carrera: 'TICS', gusto: 'Videojuegos' },
+          { id: 12347, nombre: 'Ana', carrera: 'ISC', gusto: 'Música' },
+          { id: 12348, nombre: 'Alejandra', carrera: 'ISC', gusto: 'Cine' },
           { id: 12349, nombre: 'Maria', carrera: 'TICS', gusto: 'Baile' },
           { id: 12350, nombre: 'Luis', carrera: 'IM', gusto: 'Lectura' },
           { id: 12351, nombre: 'Fernanda', carrera: 'IM', gusto: 'Fotografía' },
