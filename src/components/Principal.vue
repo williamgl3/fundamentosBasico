@@ -1,47 +1,12 @@
 <script setup>
-//importacion del card principal
-//import CardPrincipal from './CardPrincipal.vue';
-//importacion del primer card
-//import Card from './Card.vue';
-//import paginaweb from './paginaweb.vue';
-import encabezado from './encabezado.vue';
-import cardCarrusel from './cardCarrusel.vue';
-import cardS from './card´s.vue';
-import carrusel from './carrusel.vue';
-import formulario from './formulario.vue';
+import { ref } from 'vue'
+
+defineProps({
+nombre: String
+})
+
 </script>
-
 <template>
-<div class="container bg-light p-4 rounded">
-  <h1 class="text-center">MASCOTAS</h1>
-  <CardPrincipal/>
-<Card/>
-<Card/>
-//paginaweb 
-</div>
-<div class="container">
-<formulario/>
-<cardCarrusel/>
-<cardS/>
-<carrusel/>
-<paginaweb/>
-<encabezado/>
-</div>
+<h1>{{ nombre }}</h1>
 </template>
-
-<style scoped>
-.container {
-  background-color: #e3f2fd;
-  padding: 20px;
-  border-radius: 10px;
-}
-.card {
-  background-color: #fff3cd;
-}
-.card h6, .card p {
-  font-family: 'Arial', sans-serif;
-}
-.equal-card {
-  height: 100%;
-}
-</style>
+<style scoped></style>
